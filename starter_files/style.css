@@ -85,12 +85,12 @@ header{
 
 #main_content {
   background: #ddffff;
-  padding: 30px;
+  padding: 10px;
 }
 
 #sidebar_content {
   background: white;
-  padding: 30px;
+  padding: 10px;
 }
 
 #sidebar_content div{
@@ -132,8 +132,8 @@ header{
   background: #ffffdd;
   display: flex;
   align-items: center;
-    justify-content: space-between;
-    margin-bottom: 10px;
+  justify-content: space-between;
+  margin-bottom: 10px;
 }
 
 
@@ -151,12 +151,19 @@ header {
 
 }
 
+
+
 #main_content {
-  float: right;
+  display: flex;
+  justify-content: space-between;
 }
 
-#main_content div {}
-  /*flex-basis: 500px;*/
+#main_content div{
+  flex-basis: 70%;
+}
+
+#main_content div:last-child{
+  flex-basis: 30%;
 }
 
 }
