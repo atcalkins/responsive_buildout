@@ -122,7 +122,7 @@ header{
     padding-right: 80px;
     flex-grow: 0;
     flex-shrink: 0;
-    margin-top: 15px;
+    margin: 15px 5px 0px 5px;
 
 
 }
@@ -132,7 +132,7 @@ header{
   background: #ffffdd;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 10px;
 }
 
